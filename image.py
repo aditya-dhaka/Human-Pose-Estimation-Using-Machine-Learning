@@ -9,7 +9,7 @@ pose = mp_pose.Pose(static_image_mode=True, min_detection_confidence=0.5)
 mp_drawing = mp.solutions.drawing_utils
 
 # Load an image
-image_path = "xy.jpg"  # Replace with your image path
+image_path = "image1.jpg"  # Replace with your image path
 image = cv2.imread(image_path)
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
